@@ -39,11 +39,11 @@ On startup, the application checks for an existing log file and loads it if avai
 On exit or on user request, the session log can be written to a file.
 
 # How It Works
-1-  Timed Directory Scan: A timer runs every 3 seconds to ensure that the application compares the current list of files with the previously stored list and detects changes.
+1.  Timed Directory Scan: A timer runs every 3 seconds to ensure that the application compares the current list of files with the previously stored list and detects changes.
 
-2-  Logging Events: Each detected event generates a log entry. These entries appear in the UI with color-coded formatting.
+2.  Logging Events: Each detected event generates a log entry. These entries appear in the UI with color-coded formatting.
 
-3-  Sorting Log Entries: The user can sort the log by Filename, Event Type and Timestamp. Sorting have been implemented using Qt's model/view architecture (QTableWidget).
+3.  Sorting Log Entries: The user can sort the log by Filename, Event Type and Timestamp. Sorting have been implemented using Qt's model/view architecture (QTableWidget).
 
-4-  Saving and Loading Logs: At startup, the application looks for a saved log file (for example session_log.txt). When the user selects “Save Log”, the current session is written to file.
+4.  Saving and Loading Logs: At startup, the application looks for a saved log file (for example session_log.txt). When the user selects “Save Log”, the current session is written to file.
 
