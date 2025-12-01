@@ -35,6 +35,7 @@ Log entries store:
   - timestamp
 
 On startup, the application checks for an existing log file and loads it if available.
+
 On exit or on user request, the session log can be written to a file.
 
 # How It Works
