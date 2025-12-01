@@ -1,6 +1,7 @@
 # DirectoryMonitoringSystem
-It was used the version 6.8.1 of the Qt library.
-This project implements a directory monitoring system developed as part of a university assignment. The application continuously observes a target folder named myDir and detects: 
+It was used the version 6.8.1 of the Qt library for this project.
+
+It implements a directory monitoring system developed as part of a university assignment. The application continuously observes a target folder named myDir and detects: 
   - file creation
   - file modification
   - file deletion.
