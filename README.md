@@ -6,14 +6,14 @@ It implements a directory monitoring system developed as part of a university as
   - file modification
   - file deletion.
   
-Whenever one of these events occurs, the program logs it in the user interface and assigns a color-coded label depending on the event type:
+Whenever one of these events occur, the program logs it in the user interface and assigns a color-coded label depending on the event type:
   - Green → file created
   - Blue → file modified
   - Red → file deleted
 
 The monitored directory is initially empty, and the application checks its status every 3 seconds through a timed function.
 
-Periodically scan the directory every 3 seconds and check whether it contains any changes, including new files, modified files, or removed files.
+Periodically it scans the directory every 3 seconds and check whether it contains any changes, including new files, modified files, or removed files.
 
 # Graphical User Interface (Qt-based)
 Real-time activity log window.
