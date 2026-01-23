@@ -36,7 +36,7 @@ On startup, the application checks for an existing log file and loads it if avai
 
 On exit or on user request, the session log can be written to a file.
 
-# How It Works
+# How does it works
 1.  Timed Directory Scan: A timer runs every 3 seconds to ensure that the application compares the current list of files with the previously stored list and detects changes.
 
 2.  Logging Events: Each detected event generates a log entry. These entries appear in the UI with color-coded formatting.
